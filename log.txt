@@ -1,0 +1,486 @@
+31行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+40行的数据导入失败, 原因:没找到车厢：010A010B, 请先创建车厢
+45行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+78行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+79行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+90行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+91行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+96行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+106行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+123行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+124行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+165行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+169行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+175行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+250行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+251行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+252行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+253行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+304行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+307行的数据导入失败, 原因:没找到车厢：010A010B, 请先创建车厢
+331行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+348行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+350行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+351行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+373行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+469行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+470行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+485行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+489行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+566行的数据导入失败, 原因:没找到车厢：002B , 请先创建车厢
+586行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+601行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+654行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+675行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+676行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+694行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+714行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+717行的数据导入失败, 原因:parsing time "2023/07/2\x0a2023/07/06" as "2006/01/02": cannot parse "2\x0a2023/07/06" as "02"
+722行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+727行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+729行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+730行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+747行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+758行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+767行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+804行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+817行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+830行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+893行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+898行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+913行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+916行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+917行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+924行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+925行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+928行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+930行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+931行的数据导入失败, 原因:没找到车厢：007008, 请先创建车厢
+931行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+933行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+936行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+937行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+938行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+939行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+940行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+941行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+942行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+943行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+944行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+945行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+947行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+948行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+965行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+970行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+981行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+984行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+986行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+987行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+988行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+989行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+993行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+994行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+996行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1000行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1001行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1003行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1003行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1004行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1004行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1005行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1005行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1006行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1006行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1007行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1007行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+2行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+2行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+3行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+3行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+4行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+4行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+5行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+5行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+6行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+6行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+7行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+7行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+8行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+8行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+9行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+9行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+10行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+10行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+11行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+11行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+12行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+12行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+13行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+13行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+14行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+14行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+15行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+15行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+31行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+40行的数据导入失败, 原因:没找到车厢：010A010B, 请先创建车厢
+45行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+78行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+79行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+90行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+91行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+96行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+106行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+123行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+124行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+165行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+169行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+175行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+250行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+251行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+252行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+253行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+304行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+307行的数据导入失败, 原因:没找到车厢：010A010B, 请先创建车厢
+331行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+348行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+350行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+351行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+373行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+469行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+470行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+485行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+489行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+566行的数据导入失败, 原因:没找到车厢：002B , 请先创建车厢
+586行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+601行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+654行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+675行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+676行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+694行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+714行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+717行的数据导入失败, 原因:parsing time "2023/07/2\x0a2023/07/06" as "2006/01/02": cannot parse "2\x0a2023/07/06" as "02"
+722行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+727行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+729行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+730行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+747行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+758行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+767行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+804行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+817行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+830行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+893行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+898行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+913行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+916行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+917行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+924行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+925行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+928行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+930行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+931行的数据导入失败, 原因:没找到车厢：007008, 请先创建车厢
+931行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+933行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+936行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+937行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+938行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+939行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+940行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+941行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+942行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+943行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+944行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+945行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+947行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+948行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+965行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+970行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+981行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+984行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+986行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+987行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+988行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+989行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+993行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+994行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+996行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1000行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1001行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1003行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1003行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1004行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1004行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1005行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1005行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1006行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1006行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1007行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1007行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+2行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+2行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+3行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+3行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+4行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+4行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+5行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+5行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+6行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+6行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+7行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+7行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+8行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+8行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+9行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+9行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+10行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+10行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+11行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+11行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+12行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+12行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+13行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+13行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+14行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+14行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+15行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+15行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+31行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+40行的数据导入失败, 原因:没找到车厢：010A010B, 请先创建车厢
+45行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+78行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+79行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+90行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+91行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+96行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+106行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+123行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+124行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+165行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+169行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+175行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+250行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+251行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+252行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+253行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+304行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+307行的数据导入失败, 原因:没找到车厢：010A010B, 请先创建车厢
+331行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+348行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+350行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+351行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+373行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+469行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+470行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+485行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+489行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+566行的数据导入失败, 原因:没找到车厢：002B , 请先创建车厢
+586行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+601行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+654行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+675行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+676行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+694行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+714行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+717行的数据导入失败, 原因:parsing time "2023/07/2\x0a2023/07/06" as "2006/01/02": cannot parse "2\x0a2023/07/06" as "02"
+722行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+727行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+729行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+730行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+747行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+758行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+767行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+804行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+817行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+830行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+893行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+898行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+913行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+916行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+917行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+924行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+925行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+928行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+930行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+931行的数据导入失败, 原因:没找到车厢：007008, 请先创建车厢
+933行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+936行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+937行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+938行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+939行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+940行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+941行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+942行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+943行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+944行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+945行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+947行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+948行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+965行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+970行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+981行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+984行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+986行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+987行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+988行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+989行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+993行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+994行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+996行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1000行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1001行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1003行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1004行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1005行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1006行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1007行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+2行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+3行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+4行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+5行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+6行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+7行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+8行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+9行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+10行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+11行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+12行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+13行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+14行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+15行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+31行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+40行的数据导入失败, 原因:没找到车厢：010A010B, 请先创建车厢
+45行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+78行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+79行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+90行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+91行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+96行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+106行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+123行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+124行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+165行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+169行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+175行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+250行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+251行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+252行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+253行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+304行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+307行的数据导入失败, 原因:没找到车厢：010A010B, 请先创建车厢
+331行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+348行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+350行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+351行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+373行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+31行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+40行的数据导入失败, 原因:没找到车厢：010A010B, 请先创建车厢
+45行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+78行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+79行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+90行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+91行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+96行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+106行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+31行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+40行的数据导入失败, 原因:没找到车厢：010A010B, 请先创建车厢
+45行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+78行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+79行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+90行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+91行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+96行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+106行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+123行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+124行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+165行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+169行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+175行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+250行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+251行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+252行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+253行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+304行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+307行的数据导入失败, 原因:没找到车厢：010A010B, 请先创建车厢
+331行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+348行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+350行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+351行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+373行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+469行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+470行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+485行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+489行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+566行的数据导入失败, 原因:没找到车厢：002B , 请先创建车厢
+586行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+601行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+654行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+675行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+676行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+694行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+714行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+717行的数据导入失败, 原因:parsing time "2023/07/2\x0a2023/07/06" as "2006/01/02": cannot parse "2\x0a2023/07/06" as "02"
+722行的数据导入失败, 原因:没找到车厢：全车, 请先创建车厢
+727行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+729行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+730行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+747行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+758行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+767行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+804行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+817行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+830行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+893行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+898行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+913行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+916行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+917行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+924行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+925行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+928行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+930行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+931行的数据导入失败, 原因:没找到车厢：007008, 请先创建车厢
+933行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+936行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+937行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+938行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+939行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+940行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+941行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+942行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+943行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+944行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+945行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+947行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+948行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+965行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+970行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+981行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+984行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+986行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+987行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+988行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+989行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+993行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+994行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+996行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1000行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1001行的数据导入失败, 原因:parsing time "00" as "2006/01/02": cannot parse "00" as "2006"
+1003行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1004行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1005行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1006行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+1007行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+2行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+3行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+4行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+5行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+6行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+7行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+8行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+9行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+10行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+11行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+12行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+13行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+14行的数据导入失败, 原因:没找到车厢：, 请先创建车厢
+15行的数据导入失败, 原因:没找到车厢：, 请先创建车厢

@@ -16,7 +16,7 @@ type BreakDown struct {
 	TrackId                   int
 	Sort                      int
 	VehicleId                 int
-	CarId                     string
+	CarId                     []string `gorm:"-"`
 	Kilometres                int
 	ApplyDate                 *time.Time
 	ReceiveDate               *time.Time
@@ -78,7 +78,7 @@ var layout = "2006-01-02"
 
 var COLS = [...]string{"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q"}
 
-func (b *BreakDown) setValue(col string, value string) error {
+func (b *BreakDown) setValue(col string, value string, vehicleName string) error {
 	db := gorm.GetDB()
 
 	var err error = nil
@@ -104,12 +104,12 @@ func (b *BreakDown) setValue(col string, value string) error {
 		printLog(err)
 		return err
 	case "E":
-		idArr := selectCarId(db, value)
+		idArr := selectCarId(db, value, vehicleName)
 		if len(idArr) == 0 {
 			logger.GetLogger().Errorf("没找到车厢：%s, 请先创建车厢", value)
 			return fmt.Errorf("没找到车厢：%s, 请先创建车厢", value)
 		}
-		b.CarId = strings.Join(idArr, ",")
+		b.CarId = idArr
 		return nil
 	case "F":
 		b.BreakdownDescribe = value
@@ -215,7 +215,11 @@ func selectVehicleId(db *gorm2.DB, vehicleCode string) *int {
 	return id
 }
 
-func selectCarId(db *gorm2.DB, carName string) (id []string) {
+func selectCarId(db *gorm2.DB, carName string, vehicleName string) (id []string) {
+	carName = strings.TrimSpace(carName)
+	if carName == "全车" {
+		return selectQuanChe(db, vehicleName)
+	}
 	id = make([]string, 0, 2)
 	carArr := strings.Split(carName, "/")
 	formatCar := func(carStr string) string {
@@ -235,9 +239,24 @@ func selectCarId(db *gorm2.DB, carName string) (id []string) {
 		from cnxm_resume_vehicle_parts crvp
 		left join cnxm_resume_vehicle_struct_tree crvst on crvp.struct_id = crvst.id
 		left join cnxm_resume_car_type car on car.id = crvst.car_type_id
-		where crvst.depth = 1
-		and car_serial_number in ?`
-	db.Raw(sql, transformed).Scan(&id)
+		left join cnxm_resume_vehicle vehicle on vehicle.id = crvp.vehicle_id
+  		where crvst.depth = 1
+		and crvp.car_serial_number in ?
+		and vehicle.vehicle_name = ?`
+	db.Raw(sql, transformed, vehicleName).Scan(&id)
+	return id
+}
+
+func selectQuanChe(db *gorm2.DB, vehicleName string) []string {
+	id := make([]string, 0, 2)
+	sql := `select crvp.id
+		from cnxm_resume_vehicle_parts crvp
+		left join cnxm_resume_vehicle_struct_tree crvst on crvp.struct_id = crvst.id
+		left join cnxm_resume_car_type car on car.id = crvst.car_type_id
+		left join cnxm_resume_vehicle vehicle on vehicle.id = crvp.vehicle_id
+  		where crvst.depth = 1
+		and vehicle.vehicle_name = ?`
+	db.Raw(sql, vehicleName).Scan(&id)
 	return id
 }
 

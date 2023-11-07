@@ -13,9 +13,42 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+	"time"
 )
 
 var bar = new(pb.ProgressBar)
+
+type BreakdownTreeRel struct {
+	StructTreeId int `gorm:"<-"`
+	BreakdownId  int `gorm:"<-"`
+	RootId       int `gorm:"<-"`
+	Lft          int `gorm:"<-"`
+	Rgt          int `gorm:"<-"`
+}
+
+func (b *BreakdownTreeRel) TableName() string {
+	return "cnxm_breakdown_tree_rel"
+}
+
+func queryBreakdownTreeRel(id int, partId int) BreakdownTreeRel {
+	db := gorm.GetDB()
+
+	b := new(BreakdownTreeRel)
+	sql := `
+		select
+    crvp.id as struct_tree_id,
+    crvst.root_id,
+    crvst.lft,
+    crvst.rgt
+from cnxm_resume_vehicle_parts crvp
+    left join cnxm_resume_vehicle_struct_tree crvst on crvp.struct_id = crvst.id
+where crvp.id = ? 
+	`
+	db.Raw(sql, partId).Scan(b)
+	b.BreakdownId = id
+	b.StructTreeId = partId
+	return *b
+}
 
 func ReadFile(path string) {
 	path = "./breakdown.xlsx"
@@ -60,13 +93,18 @@ func ReadSheet(sheetName string, f *excelize.File) {
 			breakdown := NewBreakDown()
 
 			var readColErr error
+			vehicleName, err := ReadCell(sheetName, idx, "C", f)
+			if err != nil {
+				print2Log(fmt.Sprintf("%d行的数据导入失败, 原因:%s", idx, err.Error()))
+				return
+			}
 
 			for _, col := range COLS {
 				value, err := ReadCell(sheetName, idx, col, f)
 				if err != nil {
 					continue
 				}
-				err = breakdown.setValue(col, *value)
+				err = breakdown.setValue(col, *value, *vehicleName)
 				if err != nil {
 					print2Log(fmt.Sprintf("%d行的数据导入失败, 原因:%s", idx, err.Error()))
 					readColErr = err
@@ -83,6 +121,14 @@ func ReadSheet(sheetName string, f *excelize.File) {
 
 			breakdown.DataId = uuid.New().String()
 			db.Create(breakdown)
+
+			breakdownId := breakdown.Id
+			for _, partIdStr := range breakdown.CarId {
+				partId, _ := strconv.Atoi(partIdStr)
+				treeRel := queryBreakdownTreeRel(breakdownId, partId)
+				db.Create(treeRel)
+			}
+
 			bar.Increment()
 		}()
 	}
@@ -124,7 +170,12 @@ func ReadCell(sheet string, row int, col string, file *excelize.File) (*string, 
 				logger.GetLogger().Error("上传图片失败,忽略...,name:" + name)
 				return nil, err
 			}
-			ossFile := NewOssFile(*id, name, "/cnxm/breakdown/file/"+name)
+
+			layout := "20060102"
+			// 使用指定格式进行格式化
+			currentTime := time.Now()
+			formattedTime := currentTime.Format(layout)
+			ossFile := NewOssFile(*id, name, "/cnxm/breakdown/file/"+formattedTime+"/"+name)
 			db.Create(ossFile)
 			ossFileIds = append(ossFileIds, *id)
 		}

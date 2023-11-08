@@ -177,7 +177,7 @@ func ReadCell(sheet string, row int, col string, file *excelize.File) (*string, 
 				return nil, err
 			}
 
-			ossFile := NewOssFile(*id, name, filePath+"/"+name)
+			ossFile := NewOssFile(*id, name, "/cnxm"+filePath+"/"+name)
 			db.Create(ossFile)
 			ossFileIds = append(ossFileIds, *id)
 		}

@@ -165,17 +165,19 @@ func ReadCell(sheet string, row int, col string, file *excelize.File) (*string, 
 				return nil, err
 			}
 
-			err = minio_util.UploadFile(name, "/breakdown/file", bytes.NewReader(pic.File))
+			layout := "20060102"
+			// 使用指定格式进行格式化
+			currentTime := time.Now()
+			formattedTime := currentTime.Format(layout)
+
+			filePath := "/cnxm/breakdown/file/" + formattedTime + "/" + name
+			err = minio_util.UploadFile(name, filePath, bytes.NewReader(pic.File))
 			if err != nil {
 				logger.GetLogger().Error("上传图片失败,忽略...,name:" + name)
 				return nil, err
 			}
 
-			layout := "20060102"
-			// 使用指定格式进行格式化
-			currentTime := time.Now()
-			formattedTime := currentTime.Format(layout)
-			ossFile := NewOssFile(*id, name, "/cnxm/breakdown/file/"+formattedTime+"/"+name)
+			ossFile := NewOssFile(*id, name, filePath)
 			db.Create(ossFile)
 			ossFileIds = append(ossFileIds, *id)
 		}

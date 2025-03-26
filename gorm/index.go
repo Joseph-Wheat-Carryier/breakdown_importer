@@ -6,7 +6,7 @@ import (
 )
 
 func init() {
-	connectionString := "root:KF@32rjb@tcp(192.168.8.2:3306)/cnxm?charset=utf8mb4&parseTime=True&loc=Local"
+	connectionString := "root:KF@32rjb@tcp(172.16.1.62:3306)/cnxm?charset=utf8mb4&parseTime=True&loc=Local"
 	initDB(connectionString)
 }
 

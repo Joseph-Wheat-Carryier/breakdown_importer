@@ -51,7 +51,7 @@ where crvp.id = ?
 }
 
 func ReadFile(path string) {
-	path = "./breakdown.xlsx"
+	path = "/Users/liumingju/work_space/CNXM_BRKD_READER/main/breakdown.xlsx"
 	f, err := excelize.OpenFile(path)
 
 	if err != nil {
@@ -123,7 +123,8 @@ func ReadSheet(sheetName string, f *excelize.File) {
 			db.Create(breakdown)
 
 			breakdownId := breakdown.Id
-			for _, partIdStr := range breakdown.CarId {
+			carIdArr := strings.Split(breakdown.CarId, ",")
+			for _, partIdStr := range carIdArr {
 				partId, _ := strconv.Atoi(partIdStr)
 				treeRel := queryBreakdownTreeRel(breakdownId, partId)
 				db.Create(treeRel)

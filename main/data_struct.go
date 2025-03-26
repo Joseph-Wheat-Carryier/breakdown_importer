@@ -16,7 +16,7 @@ type BreakDown struct {
 	TrackId                   int
 	Sort                      int
 	VehicleId                 int
-	CarId                     []string `gorm:"-"`
+	CarId                     string
 	Kilometres                int
 	ApplyDate                 *time.Time
 	ReceiveDate               *time.Time
@@ -34,7 +34,7 @@ type BreakDown struct {
 	BreakdownSource           string
 	BreakdownResult           int
 	ResultSort                int
-	ChangePartId              int
+	ChangePartId              *int
 	ChangeNum                 int
 	HandleCondition           string
 	FollowCondition           string
@@ -50,6 +50,7 @@ type BreakDown struct {
 	DelFlag                   bool
 	ResumeVehiclePartId       int
 	TypeId                    int
+	Classify                  string
 	DataId                    string
 	BreakdownStatus           int
 	BreakdownFormId           string
@@ -109,7 +110,7 @@ func (b *BreakDown) setValue(col string, value string, vehicleName string) error
 			logger.GetLogger().Errorf("没找到车厢：%s, 请先创建车厢", value)
 			return fmt.Errorf("没找到车厢：%s, 请先创建车厢", value)
 		}
-		b.CarId = idArr
+		b.CarId = strings.Join(idArr, ",")
 		return nil
 	case "F":
 		b.BreakdownDescribe = value
@@ -118,7 +119,39 @@ func (b *BreakDown) setValue(col string, value string, vehicleName string) error
 		b.BreakdownSource = value
 		return nil
 	case "H":
-		b.BreakdownAffect = value
+		switch value {
+		case "无":
+			b.BreakdownAffect = "0"
+			break
+		case "故障扣修":
+			b.BreakdownAffect = "1"
+			break
+		case "退出服务":
+			b.BreakdownAffect = "2"
+			break
+		case "晚点2分钟以下":
+			b.BreakdownAffect = "3"
+			break
+		case "晚点2-5分钟":
+			b.BreakdownAffect = "4"
+			break
+		case "晚点5分钟以上":
+			b.BreakdownAffect = "5"
+			break
+		case "清客":
+			b.BreakdownAffect = "6"
+			break
+		case "正线救援":
+			b.BreakdownAffect = "7"
+			break
+		case "下线":
+			b.BreakdownAffect = "8"
+			break
+		default:
+			//log.info("------" + data.get(i).get("breakdownAffect") + "------");
+			logger.GetLogger().Errorf("错误的影响范围: %s", value)
+			b.BreakdownAffect = "-1000"
+		}
 		return nil
 	case "I":
 		var id = new(int)
@@ -128,6 +161,7 @@ func (b *BreakDown) setValue(col string, value string, vehicleName string) error
 			return fmt.Errorf("未找到功能构型%s", value)
 		}
 		b.TypeId = *id
+		b.Classify = value
 		return nil
 	case "J":
 		b.HandleCondition = value

@@ -6,8 +6,8 @@ import (
 	"io"
 )
 
-var endpoint = "192.168.8.3:9000"
-var accessKeyID = "crrcdt"
+var endpoint = "172.16.1.62:9000"
+var accessKeyID = "admin"
 var secretAccessKey = "KF@32rjb"
 var useSSL = false
 var bucketName = "cnxm"

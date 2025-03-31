@@ -1,9 +1,13 @@
 package main
 
 import (
+	"CNXM_BRKD_READER/logger"
+	"CNXM_BRKD_READER/minio_util"
 	"fmt"
+	"github.com/AlecAivazis/survey/v2"
 	"github.com/xuri/excelize/v2"
 	"io/ioutil"
+	"path/filepath"
 )
 
 func main1() {
@@ -30,7 +34,24 @@ func main1() {
 }
 
 func main() {
-	ReadFile("any")
+	var path string
+	prompt := &survey.Input{
+		Message: "请输入需要导入的excel路径",
+	}
+	survey.AskOne(prompt, &path)
+
+	// 获取完整文件名
+	filename := filepath.Base(path)
+	// 获取扩展名
+	ext := filepath.Ext(filename)
+	// 去掉扩展名
+	nameWithoutExt := filename[:len(filename)-len(ext)]
+
+	// 初始化日志
+	logger.InitLogger(filename)
+
+	minio_util.InitMinio()
+	ReadFile(path, nameWithoutExt)
 }
 
 func dumpPic(byteArr []byte) {

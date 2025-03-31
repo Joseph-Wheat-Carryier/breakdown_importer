@@ -6,17 +6,18 @@ import (
 	"io"
 )
 
-var endpoint = "172.16.1.62:9000"
-var accessKeyID = "admin"
+//var endpoint = "172.16.1.62:9000"
+
+var endpoint = "192.168.8.3:9000"
+
+//var accessKeyID = "admin"
+
+var accessKeyID = "crrcdt"
 var secretAccessKey = "KF@32rjb"
 var useSSL = false
 var bucketName = "cnxm"
 
 var minioClient *minio.Client
-
-func init() {
-	InitMinio()
-}
 
 func InitMinio() {
 	var err error

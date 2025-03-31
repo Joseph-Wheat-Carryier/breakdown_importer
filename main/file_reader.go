@@ -6,6 +6,7 @@ import (
 	"CNXM_BRKD_READER/minio_util"
 	"bytes"
 	"fmt"
+	"github.com/charmbracelet/log"
 	"github.com/cheggaaa/pb/v3"
 	"github.com/google/uuid"
 	"github.com/xuri/excelize/v2"
@@ -50,8 +51,7 @@ where crvp.id = ?
 	return *b
 }
 
-func ReadFile(path string) {
-	path = "/Users/liumingju/work_space/CNXM_BRKD_READER/main/breakdown.xlsx"
+func ReadFile(path string, filename string) {
 	f, err := excelize.OpenFile(path)
 
 	if err != nil {
@@ -62,13 +62,13 @@ func ReadFile(path string) {
 	// 计算行数
 	rowCounts := computeRows(f)
 	bar.SetTotal(int64(rowCounts))
-	bar.SetWriter(logger.LogWriter)
+	bar.SetWriter(os.Stdout)
 	bar.Start()
 
 	sheetList := f.GetSheetList()
 
 	for idx, name := range sheetList {
-		logger.GetLogger().Debug(fmt.Sprintf("去读第%d个sheet:%s", idx, name))
+		log.Debug(fmt.Sprintf("去读第%d个sheet:%s", idx, name))
 		ReadSheet(name, f)
 	}
 
@@ -120,6 +120,13 @@ func ReadSheet(sheetName string, f *excelize.File) {
 			// 设置dataId
 
 			breakdown.DataId = uuid.New().String()
+			isRepeat := checkRepeat(*breakdown)
+			if isRepeat {
+				fmt.Println("重复了: " + breakdown.BreakdownDescribe)
+				bar.Increment()
+				return
+			}
+
 			db.Create(breakdown)
 
 			breakdownId := breakdown.Id
@@ -138,6 +145,18 @@ func ReadSheet(sheetName string, f *excelize.File) {
 	if err != nil {
 		logger.GetLogger().Error(err)
 	}
+}
+
+func checkRepeat(breakdown BreakDown) bool {
+	db := gorm.GetDB()
+	var happenDate *time.Time
+	sql := `select happen_date from cnxm_breakdown where breakdown_describe = ?`
+
+	db.Raw(sql, breakdown.BreakdownDescribe).Scan(&happenDate)
+	if happenDate == nil {
+		return false
+	}
+	return happenDate.Equal(*breakdown.HappenDate)
 }
 
 func ReadCell(sheet string, row int, col string, file *excelize.File) (*string, error) {

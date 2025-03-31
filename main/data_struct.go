@@ -255,7 +255,31 @@ func selectCarId(db *gorm2.DB, carName string, vehicleName string) (id []string)
 		return selectQuanChe(db, vehicleName)
 	}
 	id = make([]string, 0, 2)
-	carArr := strings.Split(carName, "/")
+
+	var carArr []string
+
+	if strings.Contains(carName, "/") {
+		carArr = strings.Split(carName, "/")
+	} else if strings.Contains(carName, ",") {
+		carArr = strings.Split(carName, ",")
+	} else if strings.Contains(carName, "，") {
+		carArr = strings.Split(carName, "，")
+	} else if strings.Contains(carName, "、") {
+		carArr = strings.Split(carName, "、")
+	} else if len(carName) == 6 && (!strings.Contains(carName, "A") || !strings.Contains(carName, "B")) {
+		carArr = []string{
+			carName[0:3],
+			carName[3:6],
+		}
+	} else if len(carName) == 8 && (strings.Contains(carName, "A") || strings.Contains(carName, "B")) {
+		carArr = []string{
+			carName[0:4],
+			carName[4:8],
+		}
+	} else {
+		carArr = strings.Split(carName, ",")
+	}
+
 	formatCar := func(carStr string) string {
 		return fmt.Sprintf("%04s", carStr)
 	}
